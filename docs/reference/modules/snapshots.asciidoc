@@ -5,6 +5,8 @@ The snapshot and restore module allows to create snapshots of individual indices
 repository. At the time of the initial release only shared file system repository was supported, but now a range of
 backends are available via officially supported repository plugins.
 
+Note:  If using the AWS Managed ElasticSeach service, you need to register the snapshot repository following the steps here: http://docs.aws.amazon.com/elasticsearch-service/latest/developerguide/es-managedomains.html#es-managedomains-snapshot-registerdirectory
+
 [float]
 === Repositories
 
